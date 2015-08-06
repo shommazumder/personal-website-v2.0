@@ -1,0 +1,89 @@
+# Site wide configuration
+
+title: Shom Mazumder
+description: "Politics and Data--a Shom Mazumder production"
+logo: site-logo.png
+teaser: default-teaser.png
+locale: en_US
+url: http://localhost:4000
+
+
+# Jekyll configuration
+
+permalink: /:categories/:title/
+lsi: true
+markdown: kramdown
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+gems:
+  - jekyll-sitemap
+  - jekyll-archives
+include: [".htaccess"]
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "node_modules", "Gruntfile.js", "package.json", ".jekyll-assets-cache"]
+
+
+# Plugin: jekyll-assets
+
+assets:
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+  baseurl: http://localhost:4000/assets/
+  debug: false
+  version: 1
+
+
+# Plugin: jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - tags
+    - year
+  layouts:
+    year: year_index
+    tag: tag_index
+  permalinks:
+    year: /:year/
+    tag: /tag/:name/
+
+
+# Site owner
+
+owner:
+  name: Shom Mazumder
+  email: smazumder@g.harvard.edu
+  twitter: shom_mazumder
+  facebook: 
+  instagram: 
+  tumblr: 
+  github: shommazumder
+  github-repo: https://github.com/shommazumder/
+  google:
+    ad-client: 
+    ad-slot: 
+    analytics:
+    plus: 
+    verify:
+  bing:
+    verify:
+  alexa:
+    verify:
+  yandex:
+    verify:
+  bio: "Political scientist | Data scientist | Spotify Playlist Afficianado"
+  avatar: shom_bio.jpg # 160x160 px image for author byline
+disqus-shortname: shomblog-dev
+
+
+# Collections
+
+collections:
+  faqs:
+    output: true
+    permalink: /:collection/:path/
+    title: FAQs
+  components:
+    output: false
+  colors:
+    output: false

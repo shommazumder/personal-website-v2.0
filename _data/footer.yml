@@ -1,0 +1,22 @@
+# Footer navigation links
+
+- title: About
+  url: /about/
+
+- title: CV
+  url: /cv/
+
+- title: Contact
+  url: /contact/
+
+- title: Subscribe
+  url: /subscribe/
+
+- title: Style Guide
+  url: /style-guide/
+
+- title: Terms
+  url: /terms/
+
+#- title: Sitemap
+#  url: /sitemap/

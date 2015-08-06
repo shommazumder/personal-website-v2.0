@@ -1,0 +1,13 @@
+# Footer navigation links
+
+- title: Academic Website
+  url: http://scholar.harvard.edu/smazumder
+
+- title: CV
+  url: /cv/
+
+- title: Contact
+  url: /contact/
+
+#- title: Sitemap
+#  url: /sitemap/

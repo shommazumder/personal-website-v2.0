@@ -1,0 +1,20 @@
+
+/* ABOUT */
+
+  Designer:     Shom Mazumder
+  Twitter:      @shom_mazumder
+  Location:     Cambridge, Massachusetts USA
+
+
+/* SITE */
+
+  Language:     English
+  Built with:   Jekyll <http://jekyllrb.com>
+                Sublime Text 2 <http://www.sublimetext.com>
+                Grunt <http://gruntjs.com>
+                HTML Compressor <https://code.google.com/p/htmlcompressor>
+
+
+/* SPECIAL THANKS */
+
+  HTML5 Boilerplate <http://html5boilerplate.com>
