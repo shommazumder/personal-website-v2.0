@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [Made Mistakes](http://mademistakes.com) Source Code
 
 This is the source code of Made Mistakes, a personal blog and portfolio built with [Jekyll](http://jekyllrb.com) and a starter I call [Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll).
@@ -23,3 +24,7 @@ Jekyll Assets is used to build, concatenate, MD5 fingerprint, and minify stylesh
 
 1. Install dependencies `bundle install`
 2. Run Jekyll server to preview `bundle exec jekyll serve --config _config.dev.yml --no-watch`. Good idea to disable auto-regeneration since the site is quite large and takes a few minutes to compile.
+=======
+# personal-website-v2.0
+Source code for my personal website
+>>>>>>> e9061b9494e631ab94ba8119ce619768738f3242
